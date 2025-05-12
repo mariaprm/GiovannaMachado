@@ -1,0 +1,40 @@
+/*
+  Use the following to include this CSS file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+
+:root {
+  --azul-claro: #a3c9f5;
+  --azul-medio: #5390d9;
+  --azul-escuro: #1c3d63;
+  --azul-destaque: #00b4d8;
+  --fundo-pagina: #f0f8ff;
+  --texto-primario: #102a43;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--fundo-pagina);
+  color: var(--texto-primario);
+}
+
+p {
+  color: var(--azul-escuro);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h5 {
+  color: var(--azul-medio);
+  font-weight: 700;
+}
+
+a {
+  color: var(--azul-destaque);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--azul-medio);
+  text-decoration: underline;
+}
